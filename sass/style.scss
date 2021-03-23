@@ -1,0 +1,13 @@
+@import "vars";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.hero-title {
+  @include font-size(3rem);
+}
+
+.items {
+  img {
+    height: 200px;
+    width: auto;
+  }
+}
